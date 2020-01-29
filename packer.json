@@ -7,7 +7,7 @@
     "type": "amazon-ebs",
     "access_key": "{{user `aws_access_key`}}",
     "secret_key": "{{user `aws_secret_key`}}",
-    "source_ami": "ami-0217a85e28e62547",
+    "source_ami": "ami-0217a85e28e625474",
     "instance_type": "t2.micro",
     "ssh_username": "ec2-user",
     "region": "ap-south-1",
@@ -17,7 +17,7 @@
   {
     "type": "file",
     "source": "scripts/welcome.txt",
-    "destination": "/home/ubuntu/"
+    "destination": "/home/ec2-user/"
   },
   {
     "type": "shell",
