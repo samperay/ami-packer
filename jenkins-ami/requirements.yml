@@ -1,0 +1,4 @@
+- src: geerlingguy.jenkins
+- src: geerlingguy.packer
+- src: geerlingguy.ansible
+- src: geerlingguy.java
